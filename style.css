@@ -1,0 +1,66 @@
+
+/*
+select{
+    propriedade: valor;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Kalnia+Glaze:wght@100..700&display=swap');  
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box ;
+
+    }
+
+    body {
+        font-family: "Comic Neue", cursive;
+        color: green;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    header{
+        display: flex;
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+main{
+    max-width: 1200px;
+    margin: 0 1rem;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+a:hover {
+    color: greenyellow;
+    transition: 0.3s ease-in-out;
+
+}
+.profile_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.avatar{
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 40px;
+    box-shadow: 8px 6px greenyellow;
+}
+
+footer p{
+    color: paleturquoise;
+    
+}
+footer h1{
+    color: pink;
+}
