@@ -15,7 +15,7 @@ select{
     body {
         font-family: "Comic Neue", cursive;
         color: green;
-        background-color: black;
+        background-color: pink;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,6 +29,9 @@ select{
 main{
     max-width: 1200px;
     margin: 0 1rem;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
 a {
@@ -45,7 +48,6 @@ a:hover {
 }
 .profile_conteiner{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
@@ -54,13 +56,23 @@ a:hover {
     width: 100%;
     max-width: 24rem;
     border-radius: 40px;
-    box-shadow: 8px 6px greenyellow;
+    box-shadow: 8px 6px green;
 }
 
-footer p{
-    color: paleturquoise;
-    
+.profile_conteiner p{
+    color: black;
+    max-width: 300px;    
 }
-footer h1{
+.profile_conteiner h1{
     color: pink;
+}
+
+.sobre_mim {
+    justify-content: center;
+}
+
+.titulo_sobre_mim {
+    text-align: center;
+    width: 600px;
+   margin-top: 4rem;
 }
