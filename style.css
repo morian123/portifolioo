@@ -12,13 +12,16 @@ select{
 
     }
 
-    body {
-        font-family: "Comic Neue", cursive;
-        color: green;
-        background-color: pink;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+body {
+    background-image: url(19324a087a3ff2fcd50154d9979231c5.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Comic Neue", cursive;
+    color: green;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     }
     header{
@@ -55,8 +58,11 @@ a:hover {
 .avatar{
     width: 100%;
     max-width: 24rem;
-    border-radius: 40px;
-    box-shadow: 8px 6px green;
+    border-radius: 15%;
+    border: 2px solid green;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .profile_conteiner p{
@@ -76,3 +82,18 @@ a:hover {
     width: 600px;
    margin-top: 4rem;
 }
+
+.icone {
+    width: 5rem;
+    height: 5rem;
+    fill: green;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+icone insta{
+    margin-right: 1rem;
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
