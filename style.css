@@ -13,7 +13,7 @@ select{
     }
 
 body {
-    background-image: url(19324a087a3ff2fcd50154d9979231c5.gif);
+    background-image:url(plano-de-fundo.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,5 +163,28 @@ a:hover {
 
 .invisivel {
     visibility: hidden;
+}
+
+.trabalho {
+    width: 5rem;
+    height: 5rem;
+    fill: whitesmoke;
+    cursor: pointer;
+}
+
+.trabalho:hover{
+    transform: scale(1.2);
+    transition: 0.3s ease-in-out;
+}
+
+.trabalho {
+    max-width: 676.13px;
+    margin: 0 1rem;
+}
+
+div.trabalho {
+    
+    max-width: 676.13px;
+    margin: 0 1rem;
 }
 
