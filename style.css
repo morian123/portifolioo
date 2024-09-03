@@ -13,7 +13,7 @@ select{
     }
 
 body {
-    background-image:url(plano-de-fundo.gif);
+    background-image:url(imagens/plano-de-fundo.gif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,16 +32,17 @@ body {
 }
 
 header{
-        display: flex;
-        gap: 1rem;
-        margin: 2rem 0;
-    }
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
 main{
     max-width: 1200px;
     margin: 0 1rem;
     display: flex;
-        flex-direction: column;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 a {
@@ -56,6 +57,7 @@ a:hover {
     transition: 0.3s ease-in-out;
 
 }
+
 .profile_conteiner{
     display: flex;
     justify-content: center;
@@ -113,13 +115,6 @@ a:hover {
     transition: 0.3s ease-in-out;
 }
 
-.linha-horizontal {
-    width: 100%;
-    height: 2px;
-    background-color: whitesmoke;
-    margin: 20px 0;
-}
-
 .MnhEsp {
     width: 20px;
     height: 20px;
@@ -129,6 +124,7 @@ a:hover {
     transform: scale(2);
     transition: 0.2s ease-in-out;
 }
+
 
 .especialidade{
     display: flex;
@@ -143,6 +139,7 @@ a:hover {
 .metas {
     gap: 1rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 .metas p {
@@ -161,8 +158,8 @@ a:hover {
     font-weight: 700;
 }
 
-.invisivel {
-    visibility: hidden;
+.metas ul{
+    align-items: center;
 }
 
 .trabalho {
@@ -188,3 +185,21 @@ div.trabalho {
     margin: 0 1rem;
 }
 
+section.titulo_sobre_mim{
+    max-width: 636.56px;
+    max-height: 432.96px;
+}
+
+.linha-horizontal {
+    align-items: center;
+    background-color: whitesmoke;
+    height: 1px;
+    width: 100%;
+    margin: 3rem 0;
+}
+
+section.contact{
+    width: 612.63px;
+    height: 412px;
+    margin: 0 1rem;
+}
