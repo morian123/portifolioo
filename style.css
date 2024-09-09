@@ -7,7 +7,7 @@ select{
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Kalnia+Glaze:wght@100..700&display=swap');  
     *{
         margin: 0;
-        padding: 0;
+
         box-sizing: border-box ;
 
     }
@@ -39,7 +39,6 @@ header{
 main{
     max-width: 1200px;
     margin: 0 1rem;
-    display: flex;
     flex-direction: column;
     align-items: center;
     
@@ -125,17 +124,6 @@ a:hover {
     transition: 0.2s ease-in-out;
 }
 
-
-.especialidade{
-    display: flex;
-    gap: 1rem;
-    justify-content: space-between;
-}
-
-.especialidade h2{
-    color: pink;
-}
-
 .metas {
     gap: 1rem;
     justify-content: space-between;
@@ -156,10 +144,6 @@ a:hover {
 
 .metas h2:last-child{
     font-weight: 700;
-}
-
-.metas ul{
-    align-items: center;
 }
 
 .trabalho {
@@ -198,8 +182,7 @@ section.titulo_sobre_mim{
     margin: 3rem 0;
 }
 
-section.contact{
-    width: 612.63px;
-    height: 412px;
-    margin: 0 1rem;
+.seta {
+    width: 10px;
+    height: 10px;
 }
